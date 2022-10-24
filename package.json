@@ -1,10 +1,15 @@
 {
-  "name": "snake",
+  "name": "snake.client",
   "version": "0.1.61",
+  "scripts": {
+    "twcss": "bun run tailwindcss -i ./src/index.css -o dist/output.css --watch"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "web-vitals": "^3.0.3"
+    "tailwindcss": "^3.2.1",
+    "web-vitals": "^3.0.3",
+    "yup": "^0.32.11"
   },
   "eslintConfig": {
     "extends": [
